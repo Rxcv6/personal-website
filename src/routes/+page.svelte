@@ -1,15 +1,14 @@
 <script lang="ts">
   import Button from "$lib/components/ui/button/button.svelte";
-  import X from "$lib/components/x.svelte";
-  import Instag from "$lib/components/instag.svelte";
+ import Social from "$lib/components/Social.svelte";
 </script>
 
-<div class=" flex justify-end">
+<div class=" flex justify-end pb-[30rem] lg:pb-0">
   <div
-    class="bg-secondary relative min-h-[40vh] min-w-full lg:min-h-[calc(100vh-6.5rem)] lg:min-w-[60vw] items-center flex justify-center text-secondary-foreground pb-32"
+    class="bg-secondary relative min-h-[40vh] min-w-full lg:min-h-[calc(100vh-13.5rem)] lg:min-w-[60vw] items-center flex justify-center text-secondary-foreground pb-32"
   >
     <div
-      class="bg-[#f4ece6] dark:bg-[#303030]  shadow-[0_30px_70px_-15px_rgba(0,0,0,0.6)] w-[20rem]  translate-y-[85%] lg:translate-y-1/4 absolute lg:start-10 lg:-translate-x-full flex flex-col items-center justify-between pt-8 gap-3 self-start "
+      class="bg-[#f4ece6] dark:bg-[#303030]  shadow-[0_30px_70px_-15px_rgba(0,0,0,0.6)] w-[20rem]  translate-y-[85%] lg:translate-y-[20%] absolute lg:start-10 lg:-translate-x-full flex flex-col items-center justify-between pt-8 gap-3 self-start "
     >
       <img
         src="/avater.jpg"
@@ -24,22 +23,7 @@
       <div
         class="bg-secondary w-full flex justify-center p-2 mt-10 text-secondary-foreground"
       >
-        <Button
-          size="icon"
-          variant="ghost"
-          href="https://x.com/_wetq"
-          target="_blank"
-        >
-          <X></X>
-        </Button>
-        <Button
-          size="icon"
-          variant="ghost"
-          href="https://www.instagram.com/1iav1/"
-          target="_blank"
-        >
-          <Instag></Instag>
-        </Button>
+      <Social></Social>
       </div>
     </div>
     <div class="mx-10 max-w-[30rem] flex flex-col gap-8">
