@@ -27,7 +27,7 @@
   let isOpen = false;
 </script>
 
-<div class=" bg-secondary text-secondary-foreground py-8 px-4">
+<div class=" bg-secondary text-secondary-foreground py-8 px-4 ">
   <nav class="max-w-screen-2xl flex justify-between items-center mx-auto">
     <div class="flex gap-2 items-center">
       <div class="bg-primary h-6 w-6 me-3"></div>
