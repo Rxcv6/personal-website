@@ -14,7 +14,7 @@
 </svelte:head>
 <Continer class="flex flex-col gap-10">
   <Title title="Let's talk"></Title>
-  <form  action="https://formsubmit.co/9modi111@email.com" method="POST" 
+  <form  action="https://formsubmit.co/9modi111@gmail.com" method="POST" 
   class="bg-secondary p-8 flex flex-col gap-4 text-secondary-foreground">
     <div>
       <Lab
