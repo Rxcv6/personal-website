@@ -2,6 +2,11 @@
   import Button from "$lib/components/ui/button/button.svelte";
  import Social from "$lib/components/Social.svelte";
 </script>
+<svelte:head>
+  <title>
+    Badr - Computer science
+  </title>
+</svelte:head>
 
 <div class=" flex justify-end pb-[30rem] lg:pb-0">
   <div
@@ -12,13 +17,13 @@
     >
       <img
         src="/avater.jpg"
-        class="w-60 h-56 grayscale rounded-full"
+        class="w-60 h-56  rounded-full"
         alt="صورة شخصية"
       />
       <div class=" flex flex-col items-center gap-6  dark:text-white">
         <h1 class="font-bold text-4xl">Badr</h1>
         <hr class="w-20 border-primary border-2" />
-        <h2 class="text-2xl">Programming</h2>
+        <h2 class="text-2xl uppercase">Computer science</h2>
       </div>
       <div
         class="bg-secondary w-full flex justify-center p-2 mt-10 text-secondary-foreground"
