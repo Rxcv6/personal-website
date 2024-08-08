@@ -40,10 +40,7 @@
       </div>
       <div>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-          suscipit veritatis natus autem architecto? Mollitia doloremque, non
-          beatae minus ea voluptatibus eum, quos aliquid enim ab sequi
-          necessitatibus placeat aliquam.
+         A Computer science student at Umm Al-Qura University.
         </p>
       </div>
     </div>
